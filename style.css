@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #A8D0E4;
+}
+.container{
+    height:400px;
+    width:370px;
+    margin-left: 420px;
+    margin-top: 0px;
+    background-color: #A8D0E4;
+    display:flex;
+    justify-content: center;
+    border: none;
+}
+.game{
+    display:flex;
+    height:350px;
+    width:450px;
+    flex-wrap: wrap;
+    margin-top:0px;
+    margin-left: 20px;
+}
+.box{
+    height:100px;
+    width:100px;
+    margin:5px;
+    border:none;
+    border-radius:10px;
+    font-size:2rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    background-color: #C492B1;
+    color:#424651
+}
+.h3{
+    display:hidden;
+}
+#msg{
+    color:#AF3B6E;
+    font-size:2rem;
+}
+.msg-cont{
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display:none;
+}
+#newg{
+    width:100px;
+    padding:1rem;
+    margin:1rem;
+    margin-left:485px;
+    background-color: #21FA90;
+    color:black;
+    border-radius:5px;
+    border:none;
+}
+#reset{
+    width:100px;
+    padding:1rem;
+    margin:1rem;
+    background-color: #21FA90;
+    color:black;
+    border-radius:5px;
+    border:none;
+}
+.intro{
+    height:150px;
+    width:800px;
+    color:#794160;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    gap:10px;
+    margin-left: 200px;
+
+}
+#header{
+    color:#424651;
+}
+#play{
+    margin-left: 560px;
+    margin-top: 50px;
+    font-size:1rem;
+    font-weight:700;
+    color:#424651;
+}
+.ops{
+    display:flex;
+}
+.dark{
+    color:#c95217;
+}
+.light{
+    color:yellow;
+}
